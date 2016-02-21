@@ -10,7 +10,7 @@ Create MySQL database and import structure_fuel_rfid.sql file into databse.
 Edit database settings filed found in directory: public_html/Your_installDirectory/fuel/application/config/config.php
 Edit database connection settings, replace username, database, password with  data from Your early created database.
 
-Access Your ne installation at: http://your-domain-name.com/Your_installDirectory/fuel/
+Access Your new installation at: http://your-domain-name.com/Your_installDirectory/fuel/
 Default login: admin  |  admin
 
 ### Documentation
