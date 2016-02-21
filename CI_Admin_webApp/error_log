@@ -1,0 +1,4 @@
+[20-Feb-2016 12:55:44 America/Los_Angeles] PHP Fatal error:  Cannot redeclare class Rfid_model in /home/reflect/public_html/projekti/ciadmin/fuel/application/models/rfid_model.php on line 35
+[20-Feb-2016 13:02:54 America/Los_Angeles] PHP Fatal error:  Cannot redeclare class Articles_model in /home/reflect/public_html/projekti/ciadmin/fuel/application/models/rfid_model.php on line 63
+[20-Feb-2016 13:03:32 America/Los_Angeles] PHP Fatal error:  Class 'Rfid_model' not found in /home/reflect/public_html/projekti/ciadmin/fuel/modules/fuel/core/Loader.php on line 281
+[20-Feb-2016 13:14:29 America/Los_Angeles] PHP Fatal error:  Cannot redeclare class Rfid_model in /home/reflect/public_html/projekti/ciadmin/fuel/application/models/rfid_model.php on line 32
