@@ -6,6 +6,13 @@ To install FUEL CMS, copy the contents of this folder to a web accessible
 folder and browse to the index.php file. Next, follow the directions on the 
 screen. 
 
+Create MySQL database and import structure_fuel_rfid.sql file into databse. 
+Edit database settings filed found in directory: public_html/Your_installDirectory/fuel/application/config/config.php
+Edit database connection settings, replace username, database, password with  data from Your early created database.
+
+Access Your ne installation at: http://your-domain-name.com/Your_installDirectory/fuel/
+Default login: admin  |  admin
+
 ### Documentation
 To access the documentation, you can visit it [here](http://docs.getfuelcms.com).
 
