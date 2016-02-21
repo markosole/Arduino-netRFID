@@ -14,13 +14,27 @@ Web based management is used for user ID (tag) management. Web application can b
  4. 6 Color LED indicator matrix  http://goo.gl/cmXYI3
  
 
-#Arduino software
+#Arduino software (source project)
 I have used original code from https://github.com/omersiar/RFID522-Door-Unlock with hard modifications. 
 I modified  EEPROM version and added code for Network communication with server.
 
-It is still in development stage, not yet ready for production. 
+#Arduino software Network version
+
+It is still in development stage, still with basic functions.
+Should be added later:
+ - Configuration over LAN (IP, server address are hard programmed over IDE)
+ - Some minor Bug fixes 
 
 #Server software
 Web PHP application is based on Fuel CMS - CodeIgniter PHP framework. http://www.getfuelcms.com/
 I have added functionality and Modules for RFID management. 
 All tags and cards ID's are stored in database, managed in one place. There can be unlimited number of card readers installed at location. 
+
+It is still in development stage, still with basic functions.
+Should be added later:
+ - Controll for multiple devices
+ - Access list for different devices and tags
+ - Time nanagement - time based access
+ 
+ 
+
