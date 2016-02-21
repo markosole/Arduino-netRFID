@@ -9,9 +9,9 @@ $userkey = $_REQUEST['userkey'];
 //$dbname = "reflect_arduino";
 
 $servername = "localhost";
-$username = "reflect_fuel";
-$password = "Lozinka1234";
-$dbname = "reflect_fuel";
+$username = "username";
+$password = "password";
+$dbname = "dbname";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
